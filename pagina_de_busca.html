@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pesquisa de Preferência </title>
+</head>
+<body>
+    <header>
+        <img src="./IMG/barra_menu.jpg" alt="Botão de Menu ">
+        <h1>
+            Busque o que você deseja! 
+        </h1>
+    </header>
+    <main>
+
+        <section>
+            <label for="Pesquisa">O que você deseja?</label>
+            <input type="text" id="Pesquisa" name="Pesquisa"><br><br>
+
+        </section>
+        
+        <section>
+            <img src="./IMG/Pesquisa.png" alt = 'Selecionar a Especialidade do Seu Médico'>
+            <h3>
+                Quais especialidades você deseja? 
+            </h3>
+            <form action="/disponibilidade_profissional.html">
+                <input type="checkbox" id="p1" name="nutricionista" value="nutricionista">
+                <label for="nutricionista">Nutricionista</label><br>
+                <input type="checkbox" id="p2" name="nutrólogo" value="nutrólogo">
+                <label for="nutrólogo"> Nutrólogo</label><br>
+                <input type="checkbox" id="p3" name="fisioterapia" value="fisioterapia">
+                <label for="fisioterapia"> Fisioterapeuta</label><br><br>
+              </form>
+              
+        </section>   
+        <section>
+            <h3>
+                Quais as suas preferências?
+            </h3>
+            <img src="./IMG/Star.png" alt = 'Selecione a sua Preferência'>
+            <form action="/disponibilidade_profissional.html">
+                <input type="checkbox" id="P1" name="classificação" value="classificação">
+                <label for="classificação">Avaliação</label><br>
+                <input type="checkbox" id="P2" name="Pontualidade" value="Pontualidade">
+                <label for="Pontualidade"> Pontualidade</label><br>
+                <input type="checkbox" id="P3" name="Agilidade" value="Agilidade">
+                <label for="Agilidade"> Agilidade</label><br><br>
+              </form>
+        </section>
+        <section>
+           <h3>
+            Insira a Distância limite de busca 
+           </h3>
+           <form action="/inicio_busca.html">
+            <label for="distancia">Entre 1 a 20km </label>
+            <input type="range" id="distancia" name="distancia" min="1" max="20">
+            </form>
+          
+        </section>
+        <section>
+            <h3>
+                Qual o seu limite de preço?
+            </h3>
+            <img src="./IMG/Preço.png" alt = 'Coloque o Preço Limite '>
+            <p> </p>
+            <form action="inicio_busca.html">
+                
+                <label for="preços"></label>
+                <select name="preços" id="preços">
+                    <option value="Seleção">Selecione aqui</option>
+                    <option value="Plano de Saúde">Plano de Saúde</option>
+                  <option value='Faixa 1'> 1 a 100 reais </option>
+                  <option value="Faixa 2">100 a 250 reais</option>
+                  <option value="Faixa 3">250 a 400 reais</option>
+                  <option value="Faixa 4">400 a 600 reais</option>
+                  <option value="Faixa 5">600 a 800 reais </option>
+                  <option value="Faixa 6">800 + reais</option>
+                </select>  
+            </form>
+        </section>
+    </main>
+        <footer>
+            <a href="./disponibilidade_profissional.html"> Buscar </a>
+        </footer>
+</body>
+</html>
