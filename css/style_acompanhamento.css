@@ -1,0 +1,17 @@
+.item_logo {
+    color: purple;
+    font-size: 1 rem;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+.space-between {
+    justify-content: space-between;
+}
