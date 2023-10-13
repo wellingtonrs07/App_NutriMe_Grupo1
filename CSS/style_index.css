@@ -1,0 +1,79 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    width: 100%;
+    height: 60%;
+    margin-top: 1.5rem;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    border-bottom: 0.5rem solid black;
+}
+
+.imagem_perfil{
+    height: 100%;
+    width: 50%;
+}
+.bem_vindo{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-start;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.inicio_busca{
+    width: 50%;
+    height: 15%;   
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_end {
+    justify-content: flex-end;
+}
+
+.space_between{
+    justify-content: space-between;
+}
+.align_center{
+    display: flex;
+    align-items: center;
+    margin-left: 1.3rem;
+}
+
+.justify_center
+.itens_pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 40%;
+    margin-top: 2rem;
+}
