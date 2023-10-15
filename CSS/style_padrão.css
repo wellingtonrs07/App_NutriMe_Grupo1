@@ -8,6 +8,7 @@
 }
 
 .flex_end {
+    display: flex;
     justify-content: flex-end;
 }
 
@@ -22,4 +23,10 @@
 .justify_center{
     display: flex;
     justify-content: center;
+}
+
+.coluna-spacebet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
