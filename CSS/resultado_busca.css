@@ -4,7 +4,7 @@ body{
     background-color: rgb(76, 237, 184);
     
 }
-.cabeçalho{
+header{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -85,9 +85,20 @@ main{
 .opcao{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
+    align-items: center;
+    width: 100%;
+    padding: .1rem;
+    border-bottom: .1rem solid black;
 }
+
+.classificacoes{
+    position: absolute;
+    right: .5rem
+}
+
+
+
+
 
 footer{
     display: flex;
