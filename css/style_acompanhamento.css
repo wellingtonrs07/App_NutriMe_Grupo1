@@ -1,6 +1,15 @@
 .item_logo {
     color: purple;
-    font-size: 1 rem;
+    font-size: 18px;
+}
+
+.item_return {
+    width: 05rem;
+    height: ;
+}
+
+.item_config {
+    width: 1rem;
 }
 
 .coluna {
@@ -14,4 +23,9 @@
 }
 .space-between {
     justify-content: space-between;
+}
+
+.tamanhomax {
+    max-width: 2%;
+    max-height: 2%;
 }
