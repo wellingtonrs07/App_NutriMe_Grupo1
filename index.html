@@ -4,90 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial NuSearch </title>
+
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style_index.css">
+    <link rel="stylesheet" href="CSS/style_padrão.css">
+    
 </head>
 
 
 <body>
 
-    <header>
+    <header class="cabeçalho">
 
-
-        <section>
-            <img src="IMG/perfil.png" alt="Botão meu perfil">
-            <h3> Olá, Alexandre! </h3>
+        <section class="linha"> 
+        <img src="IMG/perfil.png" alt="Botão meu perfil" class="imagem_perfil">
+        <h1 class="bem_vindo"> Olá, Alexandre! </h1>  
         </section>
 
-        <section>
-            <h1> NuSearch </h1>
-        </section>
+        <h2 class="logo"> NuSearch </h2>
+    
     </header>
 
     <main>
 
-        <section>
+        <section class="linha inicio_busca">
             <img src="IMG/lupa.png" alt="Lupa de Busca">
-            <h2> O que você busca? </h2>
+            <h2 class="align_center"> O que você busca? </h2>
+        
         </section>
+        
 
-        <ul>
+        <ul class="itens_pesquisa align_center">
              <li>
-                <section>
+                <section class="coluna">
 
-                    <img src="IMG/star.png" alt="Favoritos">
-                    <h3> Favoritos </h3>
+                    <img src="IMG/star.png" alt="Favoritos" class="imagem_central">
+                    <h3><a href="./pagina_de_busca.html" class="justify_center"> Favoritos </a></h3>
 
                 </section>
             </li>
 
             <li> 
-                <section>
+                <section class="coluna">
 
-                    <img src="IMG/hospital_icone.png" alt="Hospitais">
-                    <h3> Hospitais </h3>
+                    <img src="IMG/hospital_icone.png" alt="Hospitais" class="imagem_central2">
+                    <h3><a href="./pagina_de_busca.html" class="justify_center"> Hospitais </a></h3>
                 </section>
 
             </li>
 
             <li>
 
-            <section>
-                <img src="IMG/icone_medico.png" alt="Clinicas">
-                <h3> Clínicas </h3>
+            <section class="coluna">
+                <img src="IMG/icone_medico.png" alt="Clinicas" class="imagem_central">
+                <h3><a href="./pagina_de_busca.html" class="justify_center"> Clínicas </a></h3>
             </section>
             
             </li>
             <li>
-                <section>
-                    <img src="IMG/pilula.png" alt="Icone Farmacia">
-                    <h3> Farmácias</h3>
+                <section class="coluna">
+                    <img src="IMG/pilula.png" alt="Icone Farmacia" class="imagem_central2">
+                    <h3><a href="./pagina_de_busca.html" class="justify_center"> Farmácias</a></h3>
                 </section>
             </li>
         </ul>
+    
+    <section class="lembretes">
 
+        <div class="linha">
 
-        <section>
-            <img src="IMG/barra_menu.jpg" alt="ìcone ilustrativo Lembretes">
-            <h2> Lembretes - 28/09 </h2>
+            <img src="IMG/tres_barras.png" alt="Icone Lembretes" class="imagem_central3">
+            <h3 class="align_center"> Lembretes - 28/09 </h3>
+        </div>
 
-            <ul>
-                <li> Próxima Refeição : Almoço 12:30</li>
-                <li> Creatina 3g </li>
-            </ul>
-        </section>
-
+        <ul class="lista_lembretes">
+            <li> Próxima Refeição: Almoço (12:30)</li>
+            <li> Creatina - 3g  </li>
+        </ul>
+    </section>
     </main>
 
-    <footer>
-         
-        <img src="IMG/home_icon.png" alt="Item Tela Inicial">
-        <img src="IMG/lupa.png" alt="Icone Pesquisa">
-        <img src="IMG/heart_icon.png" alt="Minha saúde Icone">
-        <img src="IMG/calendar_icon.jpg" alt="Minha agenda">
-        <img src="IMG/diet_icon.jpeg" alt="Minha dieta">
+    <footer class=" linha footer">
 
-        
+            <img src="IMG/home_icon.png" alt="ícone pagina Inicial" class="imagem_central">
+            <img src="IMG/Pesquisa.png" alt="Ícone de busca" class="imagem_central">
+            <img src="IMG/heart_icon.png" alt="Minha Saúde" class="imagem_central">
+            <img src="IMG/calendar_icon.jpg" alt="Ícone da Agenda" class="imagem_central">
+            <img src="IMG/diet_icon.jpeg" alt="Ìcone da dieta" class="imagem_central">
+
     </footer>
-
     
 </body>
+
+
 </html>
