@@ -28,18 +28,32 @@ h1{
     font-weight: bold;
     font-family: monospace;
 }
-main{ 
-    
+main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    overflow-y: auto;
+    padding-bottom: 5.6rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: .1rem;
+    border-bottom: .1rem solid black;
+    margin-top:1rem ;
+}
+h2{
+    padding-bottom: 1.5rem;
+}
 
+.seta-baixo img{
+    height: 3rem;
 }
-.seta{
-    right: 10rem;
-    height: 6rem;
-}
+
+    
+
 
 
 footer{
@@ -54,6 +68,7 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+
 }
 
 img{
