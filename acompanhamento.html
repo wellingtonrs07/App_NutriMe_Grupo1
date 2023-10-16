@@ -1,81 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Exemplo</title>
-        <link rel = "stylesheet" href = "css/style_acompanhamento.css">
-        <link rel = "stylesheet" href = "style_acompanhamento.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opções de agendamento</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_acompanhamento.css">
+</head>
+<body>
 
-    <body>
-        <header>
+    <header>
+        <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-back-512.png" alt="seta retorno" class="seta">
+        <h1>
+            NuSearch
+        </h1>
+        <img src="https://cdn-icons-png.flaticon.com/512/630/630886.png" alt="configs" class="config">
+    </header>
 
-            <ul class = "space-between linha ">
-                <li>
-                    <a href="./index.html">
-                        <ul class = "item_return">
-                            <img src = "img/setaesq.png" alt = "botão de voltar">
-                        </ul>
-                    </a> 
-                <li>
-                
-                <li>
-                    <ul class= "item_logo">
-                        <h1> NuSearch </h1>
-                    </ul>
-                </li>
+    <main>
+        <h2>Acompanhamento</h2>
 
-                <li>
-                    <a href="./#.html">
-                        <ul class = "item_config">
-                            <img src = "img/tres barras.png" alt = "botão de configurações">
-                        </ul>
-                    </a>
-                </li>
-            </ul>
+        <section>
+            <img src="img/grafico_acompanhamento.png" class = "grafico">
+            <img src="img/medidascorporais.png" class = "medidas">
+        </section>
 
-            
-        </header>
+        <section>
+            <img src="img/tabela.png" class = "grafico">
+        </section>
 
-        <main>
-            <h1> Acompanhamento </h1>
+        <section>
+            <a href="consultas_feitas.html">
+                <h2> Consultas Feitas </h2>
+            </a>
+        </section>
 
-            <img src = "img/grafico_acompanhamento.png" alt = 'tabela IMC'> 
-            <img src = "img/medidascorporais.png" alt = 'medidas corpo'>
+    </main>
 
-            <p><table border="1">
-                <tr>
-                    <th>Parâmetros</th>
-                    <th>Dados</th>
-                </tr>
-                <tr>
-                    <td>Peso</td>
-                    <td>115 Kg</td>
-
-                </tr>
-                <tr>
-                    <td>Situação</td>
-                    <td>Obesidade</td>
-                </tr>
-                <tr>
-                    <td>% Gordura</td>
-                    <td>37</td>
-                </tr>
-
-                <tr>
-                    <td>IMC</td>
-                    <td>23.5</td>
-                </tr>
-            </p>
-
-            <h2>Consultas Anteriores</h2>
-
-        </main>
-
-        <footer>
-
-        </footer>
-    </body>
-
+    <footer>
+        <img src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="inicio" class="barra home">
+        <img src="https://cdn-icons-png.flaticon.com/256/3917/3917132.png" alt="busca" class="barra search">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/768px-Heart_coraz%C3%B3n.svg.png" alt="coração" class="barra heart">
+        <img src="https://cdn.icon-icons.com/icons2/935/PNG/512/weekly-calendar-outline-event-interface-symbol_icon-icons.com_73108.png" alt="agenda" class="barra agenda">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-dinner-plate-2-532639.png?f=webp" alt="dieta" class="barra plate">
+    </footer>
+</body>
 </html>
