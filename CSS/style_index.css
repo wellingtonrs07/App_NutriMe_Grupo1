@@ -6,6 +6,7 @@ html,body{
 body{
     display: flex;
     flex-direction: column;
+    background-color: rgb(76, 237, 184);
 }
 
 main{
@@ -15,19 +16,28 @@ main{
 }
 
 
-.cabeçalho{
+header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: 20%;
-    border-bottom: 0.5rem solid black;
+    height: 10%;
+    border-bottom: 0.1rem solid black;
 }
 
-.imagem_perfil{
-    height: 100%;
-    width: 50%;
+.boas_vindas{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: end;
+    padding-bottom: .2rem;
 }
+
+
+.imagem_perfil{
+    height: 2rem;
+}
+
 .bem_vindo{
     display: flex;
     align-items: center;
@@ -37,52 +47,104 @@ main{
 .logo{
     display: flex;
     align-items: flex-start;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: italic;
 }
 
+
+
 .inicio_busca{
-    width: 50%;
-    height: 15%;   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;   
 }
+
+.frase_busca{
+    margin-left: .3rem;
+    font-size: 1.2rem;
+}
+
 .itens_pesquisa{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 40%;
     margin-top: 1.1rem;
 }
 
+
+.imagem_central{
+    background-color: purple;
+    height: 3.5rem;
+}
+
+.desc_pesquisa{
+    margin-top: .3rem;
+    font-size: 1.2rem;
+    background-color: aliceblue;
+    border-radius: .5rem;
+}
+
 .lembretes{
+    background-color: purple;
+    height: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
+
+.info_dia{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: .5rem;
+}
+
 
 .lista_lembretes{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.imagem_central{
-    width: 40%;
-    height: 40%;
-}
-
-.imagem_central2{
-
-    width: 70%;
-    height: 70%;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
 }
 
 .imagem_central3{
-    width: 10%;
-    height: 10%;
+    height: 2rem;
 }
 
-.footer{
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    border-top: .1rem solid black;
+    margin-top:0;
+    background-color: rgba(235, 167, 235, 1);
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    height: 20%;
+
+}
+
+
+.home{
+    height: 3rem;
+}
+.search{
+    height: 3rem;
+}
+.heart{
+    height: 4.5rem;
+}
+.agenda{
+    height: 3rem;
+}
+.plate{
+    height: 4rem;
 }
