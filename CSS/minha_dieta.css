@@ -23,6 +23,11 @@ header{
     right: .5rem;
     height: 3rem;
 }
+.retorno{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+}
 h1{
     font-size: 2rem;
     font-weight: bold;
@@ -35,27 +40,54 @@ main{
     overflow-y: auto;
     padding-bottom: 5.6rem;
 }
+.food{
+    
+    height: 3.5rem;
+    margin-right: 1rem  ;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-bottom: .1rem solid black;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: monospace
+
+    
+}
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-    padding: .1rem;
+    justify-content: space-evenly;
+    align-items: center;
     border-bottom: .1rem solid black;
-    margin-top:1rem ;
+    font-size: 1.05rem;
+    
+}
+p{
+    margin: .2rem;
+}
+.detalhes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.05rem;
 }
 h2{
-    padding-bottom: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    font-family: monospace;
 }
 
-.seta-baixo img{
-    height: 3rem;
+div p:first-child{
+    font-weight: bold;
 }
-
-    
-
-
-
 footer{
     display: flex;
     flex-direction: row;
