@@ -18,11 +18,13 @@ header{
     left: -0.5rem;
     height: 3rem;
 }
+
 .config{
     position: absolute;
     right: .5rem;
     height: 3rem;
 }
+
 h1{
     font-size: 2rem;
     font-weight: bold;
@@ -51,10 +53,6 @@ h2{
 .seta-baixo img{
     height: 3rem;
 }
-
-    
-
-
 
 footer{
     display: flex;
