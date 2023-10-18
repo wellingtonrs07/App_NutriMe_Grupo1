@@ -137,19 +137,20 @@ img {
     flex-direction: row;
     justify-content: center;
     justify-items: center;
-    margin-top: 2rem;
-    margin-bottom: 0.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.2rem;
     font-size: 1.5rem;
-    background-image: url('https://www.ifms.edu.br/campi/campus-campo-grande/imagens/2020/marco-2020/@@images/4d303f2c-d612-4a01-922d-68ef930c374a.png');
+    background-image: url('../img/calendario.png');
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 1rem;
 }
 
 .borda{
     background-color: rgb(186, 144, 225);
     border-radius: 0.5rem;
     padding: 0.5rem;
-    margin: 0.7rem;
+    margin: 0.2rem;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -159,4 +160,8 @@ img {
     font-weight: bold;
     font-size: 1.6rem;
     border: 0.15rem dotted rgb(96, 0, 187);
+}
+
+.opacidade{
+    background-color: rgba(148, 147, 147, 0.4);
 }
