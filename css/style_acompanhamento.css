@@ -72,12 +72,12 @@ img{
 }
 
 .grafico{
-    height: 8rem;
+    height: 9rem;
     position: relative; 
 }
 
 .medidas{
-    height: 8rem;
+    height: 7rem;
     position: relative;
 }
 
@@ -89,6 +89,19 @@ h2{
 section{
     padding: 0.5rem;
 }
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 
 
 
