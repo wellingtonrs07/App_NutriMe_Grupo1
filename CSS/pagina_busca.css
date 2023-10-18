@@ -19,8 +19,13 @@ main{
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 60%;
+    height: 28rem;
     margin-top: 1.5rem;
+}
+.retorno{
+    position: absolute;
+    top: 1rem;
+    left: 0;
 }
 .seta{
     position: absolute;
@@ -79,7 +84,52 @@ main{
     align-items: center;
 }
 .imagem_localidade{
-    height: 5rem;
+    height: 4rem;
+}
+
+.especialidade{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.texto_especialidade{
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 1.2rem;
+    padding: .3rem;
+}
+
+.preço{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.texto_preço{
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 1.2rem;
+    padding: .3rem;
+}
+
+.Pesquisar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: .5rem;
+    height: 1.2rem;
+    padding: .5rem;
+}
+.texto_pesquisar{
+    font-size: 1.2rem;
 }
 footer{
     display: flex;
