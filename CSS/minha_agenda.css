@@ -28,12 +28,23 @@ h1{
     font-weight: bold;
     font-family: monospace;
 }
+.retorno{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+}
 main{
     display: flex;
     flex-direction: column;
     justify-content: start;
     overflow-y: auto;
     padding-bottom: 5.6rem;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
 }
 .container{
     display: flex;
