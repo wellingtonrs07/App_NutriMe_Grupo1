@@ -52,8 +52,10 @@ footer{
 }
 
 img{
+    position: absolute;
     border-radius: 0.5rem;
-    height: 1.5rem;
+    height: 1.5rem; 
+    right: .5rem;
 }
 
 .home{
@@ -75,14 +77,14 @@ img{
 li{
     display: flex;
     flex-direction: row;
-    padding: .1rem;
+    padding: 0.1rem;
     border-bottom: .1rem solid black;
     margin-top:1rem;
 }
 
 a{
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
 }
 
