@@ -42,9 +42,10 @@ h2 {
 }
 
 .seta {
-    position: absolute;
-    left: -0.5rem;
+    position: fixed;
+    left: -0.4rem;
     height: 3rem;
+    top: 1rem;
 }
 
 .config {
