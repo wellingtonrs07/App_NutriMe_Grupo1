@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Pagina de Pesquisa </title>
+    
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/pagina_busca.css">
+    <link rel="stylesheet" href="CSS/style_padrão.css">
 </head>
 
 
@@ -11,11 +15,11 @@
 
 
     <header>
-        <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-back-512.png" alt="seta retorno">
-        <h1>
+        <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-back-512.png" alt="seta retorno" class="seta">
+        <h1 class="logo">
             NuSearch
         </h1>
-        <img src="https://cdn-icons-png.flaticon.com/512/630/630886.png" alt="configs">
+        <img src="https://cdn-icons-png.flaticon.com/512/630/630886.png" alt="configs" class="config">
         
     </header>
 
@@ -24,82 +28,70 @@
 
     <main>
 
-        <section>
-            <img src="IMG/lupa.png" alt="Ilustração de busca">
-            <h3><label for="Pesquisa">O que você deseja?</label></h3>
-            <input type="text" id="Pesquisa" name="Pesquisa"><br><br>
-
+        <section class="digita_busca">
+            <img src="IMG/lupa.png" alt="Ilustração de busca" class="lupa">
+            
+            <div class="digita_input">
+                <h3><label for="Pesquisa">O que você deseja?</label></h3>
+                <input type="text" id="Pesquisa" name="Pesquisa"><br><br>
+            </div>
         </section>
         
-        <section>
-            <h2>De qual referência você está?</h2>
-            <ul>
-                <li>
-                    <img src="IMG/home_icon.png" alt="Minha casa">
+        <section class="localidade">
+
+            <h2 class="justify_center">De qual referência você está?</h2>
+            <ul class="icones_localidade">
+                <li class="item_localidade">
+                    <img src="IMG/home_icon.png" alt="Minha casa" class="imagem_localidade">
                     <h3> <INPUT TYPE="radio" NAME="OPCAO_localização" VALUE="op1" CHECKED> Casa </h3>
                 </li>
 
-                <li>
-                    <img src="IMG/job_icon.png" alt="Minha casa">
+                <li class="item_localidade">
+                    <img src="IMG/job_icon.png" alt="Minha casa" class="imagem_localidade">
                     <h3><INPUT TYPE="radio" NAME="OPCAO_localização" VALUE="op1" CHECKED> Trabalho </h3>
                 </li>
 
-                <li>
-                    <img src="IMG/outros_icon.png" alt="Minha casa">
+                <li class="item_localidade">
+                    <img src="IMG/outros_icon.png" alt="Minha casa" class="imagem_localidade">
                     <h3> <INPUT TYPE="radio" NAME="OPCAO_localização" VALUE="op1" CHECKED> Outros </h3>
                 </li>
             </ul>
               
               
-        </section>   
-        <section>
+        </section>
+        
+        <section class="linha ">
+    
+            <h2><label for="Especialidades">Especialidade</label></h2>
+            <select id="Especialidades" name="tipos">
+                <option value="Seleção">Selecione aqui...</option>
+                <option value="Nutricionista">Nutricionista</option>
+                <option value="Nutrólogo">Nutrólogo</option>
+                <option value="Fisioterapeuta">Fisioterapeuta</option>
+                <option value="Endócrino">Endócrino</option>
+            </select>
+
+        </section>
+        <section class="linha">
+
             <h3>
-                Quais as suas preferências?
+                Preço Desejado 
             </h3>
-            <img src="./IMG/Star.png" alt = 'Selecione a sua Preferência'>
-            <form action="/disponibilidade_profissional.html">
-                <input type="checkbox" id="P1" name="classificação" value="classificação">
-                <label for="classificação">Avaliação</label><br>
-                <input type="checkbox" id="P2" name="Pontualidade" value="Pontualidade">
-                <label for="Pontualidade"> Pontualidade</label><br>
-                <input type="checkbox" id="P3" name="Agilidade" value="Agilidade">
-                <label for="Agilidade"> Agilidade</label><br><br>
-            </form>
+            <label for="distancia">(Reais)</label>
+            <input type="range" id="distancia" name="distancia" min="50" max="2000">
+        
         </section>
-        <section>
-           <h3>
-            Insira a Distância limite de busca 
-           </h3>
-           <form action="/inicio_busca.html">
-            <label for="distancia">Entre 1 a 20km </label>
-            <input type="range" id="distancia" name="distancia" min="1" max="20">
-            </form>
-          
-        </section>
-        <section>
-            <h3>
-                Qual o seu limite de preço?
-            </h3>
-            <img src="./IMG/Preço.png" alt = 'Coloque o Preço Limite '>
-            <p> </p>
-            <form action="inicio_busca.html">
-                
-                <label for="preços"></label>
-                <select name="preços" id="preços">
-                    <option value="Seleção">Selecione aqui</option>
-                    <option value="Plano de Saúde">Plano de Saúde</option>
-                  <option value='Faixa 1'> 1 a 100 reais </option>
-                  <option value="Faixa 2">100 a 250 reais</option>
-                  <option value="Faixa 3">250 a 400 reais</option>
-                  <option value="Faixa 4">400 a 600 reais</option>
-                  <option value="Faixa 5">600 a 800 reais </option>
-                  <option value="Faixa 6">800 + reais</option>
-                </select>  
-            </form>
-        </section>
+
+        <a href="./resultado_busca.html" class="justify_center"> Buscar </a>
     </main>
-        <footer>
-            <a href="./resultado_busca.html"> Buscar </a>
-        </footer>
+    <footer>
+
+        <img src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="inicio" class="barra home">
+        <img src="https://cdn-icons-png.flaticon.com/256/3917/3917132.png" alt="busca" class="barra search">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/768px-Heart_coraz%C3%B3n.svg.png" alt="coração" class="barra heart">
+        <img src="https://cdn.icon-icons.com/icons2/935/PNG/512/weekly-calendar-outline-event-interface-symbol_icon-icons.com_73108.png" alt="agenda" class="barra agenda">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-dinner-plate-2-532639.png?f=webp" alt="dieta" class="barra plate">
+    
+    </footer>
 </body>
 </html>
