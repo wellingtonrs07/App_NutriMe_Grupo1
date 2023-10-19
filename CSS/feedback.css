@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: rgb(76, 237, 184);
+    background-color: #FFC252;
     
 }
 header{
@@ -45,7 +45,7 @@ footer{
     padding: 0.2rem;
     border-top: .1rem solid black;
     margin-top:0;
-    background-color: rgba(235, 167, 235, 1);
+    background-color: #FFFFFF;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -95,7 +95,6 @@ section{
     justify-content: space-between;
     align-items: center;
 }
-
 ul{
     display: flex;
     flex-direction: row;
@@ -105,13 +104,21 @@ ul{
 section{
     margin:0.5rem;
     padding: 0.5rem;
-    background-color: white
 }
 
 p{  
-    margin:0.2rem;
+    margin:0.4rem;
     font-size: 1rem;
     font-family: 'Ubuntu', sans-serif;
+}
+
+div{
+    background-color: white;
+}
+
+.fundo_branco{
+    padding:0.5rem;
+    background-color: white;
 }
 
 
