@@ -28,7 +28,7 @@ header{
 h1{
     font-size: 2rem;
     font-weight: bold;
-    font-family: monospace;
+    font-family: 'Noto Serif', serif;
 }
 
 main{
@@ -85,7 +85,8 @@ img{
 
 h2{
     font-size: 1.5rem;
-    margin: 0.5rem;
+    margin: 1rem;
+    font-family: 'Noto Serif', serif;
 }
 
 section{
@@ -101,10 +102,16 @@ ul{
     margin: 1rem;
 }
 
-h3{
+section{
     margin:0.5rem;
     padding: 0.5rem;
     background-color: white
+}
+
+p{  
+    margin:0.2rem;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
