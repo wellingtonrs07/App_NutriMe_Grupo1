@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: rgb(76, 237, 184);
+    background-color: #849CFA;
     
 }
 header{
@@ -12,6 +12,8 @@ header{
     border-bottom: .1rem solid black;
     padding: 1.5rem;
     margin-bottom: 0;
+    font-family: 'Noto Serif', serif;
+    background-color: white;
 }
 .seta{
     position: absolute;
@@ -28,7 +30,7 @@ header{
 h1{
     font-size: 2rem;
     font-weight: bold;
-    font-family: monospace;
+    font-family: 'Noto Serif', serif;
 }
 main{ 
     height: 30rem;
@@ -42,6 +44,7 @@ main{
 h2{
     font-size: 2rem;
     margin: 1rem;
+    font-family: 'Noto Serif', serif;
 }
 
 .check{
@@ -72,7 +75,7 @@ footer{
     padding: .5rem;
     border-top: .1rem solid black;
     margin-top:0;
-    background-color: rgba(235, 167, 235, 1);
+    background-color: white;
     position: fixed;
     bottom: 0;
     width: 100%;

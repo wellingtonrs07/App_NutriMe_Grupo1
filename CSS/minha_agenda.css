@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: rgb(76, 237, 184);
+    background-color:#849CFA;
     
 }
 header{
@@ -12,6 +12,7 @@ header{
     border-bottom: .1rem solid black;
     padding: 1.5rem;
     margin-bottom: 0;
+    background-color: white;
 }
 .seta{
     position: absolute;
@@ -22,11 +23,13 @@ header{
     position: absolute;
     right: .5rem;
     height: 3rem;
+    
 }
 h1{
     font-size: 2rem;
     font-weight: bold;
-    font-family: monospace;
+    font-family:'Noto Serif', serif;
+
 }
 .retorno{
     position: absolute;
@@ -39,6 +42,7 @@ main{
     justify-content: start;
     overflow-y: auto;
     padding-bottom: 5.6rem;
+    
 }
 .relogio{
     
@@ -56,7 +60,7 @@ main{
     padding: 0.5rem;
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: monospace
+    font-family:'Noto Serif', serif;
 
     
 }
@@ -71,6 +75,7 @@ main{
 }
 p{
     margin: .2rem;
+    
 }
 .detalhes{
     display: flex;
@@ -78,11 +83,12 @@ p{
     align-items: center;
     padding: 1rem;
     font-size: 1.05rem;
+    font-family: 'Noto Serif', serif;
 }
 h2{
     margin: 1rem;
     font-weight: bold;
-    font-family: monospace;
+    font-family: 'Noto Serif', serif;
 }
 
 div p:first-child{
@@ -96,7 +102,7 @@ footer{
     padding: .5rem;
     border-top: .1rem solid black;
     margin-top:0;
-    background-color: rgba(235, 167, 235, 1);
+    background-color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
