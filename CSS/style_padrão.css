@@ -30,3 +30,11 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.fonte_titulo{
+    font-family: 'Noto Serif', serif;
+}
+
+.fonte_texto{
+    font-family: 'Ubuntu', sans-serif;
+}

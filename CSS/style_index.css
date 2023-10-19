@@ -86,10 +86,11 @@ header{
     font-size: 1.2rem;
     background-color: aliceblue;
     border-radius: .5rem;
+    font-family: 'Noto Serif', serif;
 }
 
 .lembretes{
-    background-color: purple;
+    background-color: white;
     height: 7rem;
     display: flex;
     flex-direction: column;
@@ -148,3 +149,6 @@ footer{
 .plate{
     height: 4rem;
 }
+
+
+

@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/pagina_busca.css">
     <link rel="stylesheet" href="CSS/style_padrão.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -15,7 +19,7 @@
 
     <header>
         <a href="./index.html" class="retorno"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-back-512.png" alt="seta retorno" class="seta"></a>
-        <h1 class="logo">
+        <h1 class="logo fonte_titulo">
             NuSearch
         </h1>
         <img src="https://cdn-icons-png.flaticon.com/512/630/630886.png" alt="configs" class="config">
@@ -32,7 +36,7 @@
             <img src="IMG/lupa.png" alt="Ilustração de busca" class="lupa">
             
             <div class="digita_input">
-                <h3><label for="Pesquisa">O que você deseja?</label></h3>
+                <h3 class="fonte_titulo"><label for="Pesquisa">O que você deseja?</label></h3>
                 <input type="text" id="Pesquisa" name="Pesquisa"><br><br>
             </div>
         
@@ -40,21 +44,21 @@
         
         <section class="localidade">
 
-            <h2 class="justify_center">De qual referência você está?</h2>
+            <h2 class="justify_center fonte_titulo">De qual referência você está?</h2>
             <ul class="icones_localidade">
                 <li class="item_localidade">
                     <img src="IMG/home_icon.png" alt="Minha casa" class="imagem_localidade">
-                    <h3> <INPUT TYPE="radio" NAME="OPCAO_localização" VALUE="op1" CHECKED> Casa </h3>
+                    <h3 class="fonte_titulo"> <INPUT TYPE="radio" NAME="OPCAO_localização" VALUE="op1" CHECKED> Casa </h3>
                 </li>
 
                 <li class="item_localidade">
                     <img src="IMG/job_icon.png" alt="Minha casa" class="imagem_localidade">
-                    <h3><INPUT TYPE="radio" NAME="OPCAO_localização" VALUE="op1" CHECKED> Trabalho </h3>
+                    <h3 class="fonte_titulo"><INPUT TYPE="radio" NAME="OPCAO_localização" VALUE="op1" CHECKED> Trabalho </h3>
                 </li>
 
                 <li class="item_localidade">
                     <img src="IMG/outros_icon.png" alt="Minha casa" class="imagem_localidade">
-                    <h3> <INPUT TYPE="radio" NAME="OPCAO_localização" VALUE="op1" CHECKED> Outros </h3>
+                    <h3 class="fonte_titulo"> <INPUT TYPE="radio" NAME="OPCAO_localização" VALUE="op1" CHECKED> Outros </h3>
                 </li>
             </ul>
               
@@ -63,8 +67,8 @@
         
         <section class="especialidade">
     
-            <h2 class="texto_especialidade"><label for="Especialidades">Especialidade</label></h2>
-            <select id="Especialidades" name="tipos">
+            <h2 class="texto_especialidade fonte_titulo"><label for="Especialidades">Especialidade</label></h2>
+            <select id="Especialidades" name="tipos" class="fonte_titulo">
                 <option value="Seleção">Selecione aqui...</option>
                 <option value="Nutricionista">Nutricionista</option>
                 <option value="Nutrólogo">Nutrólogo</option>
@@ -76,13 +80,13 @@
 
         <section class="preço">
 
-            <h2 class="texto_preço"><label for="distancia"> Preço Limite (Reais)</label></h2>
+            <h2 class="texto_preço fonte_titulo"><label for="distancia"> Preço Limite (Reais)</label></h2>
             <input type="range" id="distancia" name="distancia" min="50" max="2000">
         
         </section>
 
 
-        <a href="./resultados_busca.html" class="texto_pesquisar Pesquisar">Pesquisar </a>
+        <a href="./resultados_busca.html" class="texto_pesquisar Pesquisar fonte_titulo">Pesquisar </a>
 
     </main>
     <footer>
