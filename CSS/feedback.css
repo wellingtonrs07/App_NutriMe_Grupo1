@@ -109,10 +109,12 @@ section{
 p{  
     margin:0.4rem;
     font-size: 1rem;
+    text-align: justify;
     font-family: 'Ubuntu', sans-serif;
 }
 
 div{
+    text-align: justify;
     background-color: #FFFFFF;
 }
 
