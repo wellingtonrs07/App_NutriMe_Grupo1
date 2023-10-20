@@ -51,8 +51,6 @@ header{
     font-weight: bold;
 }
 
-
-
 .inicio_busca{
     display: flex;
     flex-direction: row;
@@ -112,7 +110,6 @@ header{
     left: .5rem;
 }
 
-
 .lista_lembretes{
     display: flex;
     flex-direction: column;
@@ -142,7 +139,6 @@ footer{
 
 }
 
-
 .home{
     height: 3rem;
 }
@@ -157,11 +153,10 @@ footer{
 }
 .plate{
     height: 4rem;
+    margin-right: 0.5rem;
 }
 
 a {
     text-decoration: none;
     color: black;
 }
-
-

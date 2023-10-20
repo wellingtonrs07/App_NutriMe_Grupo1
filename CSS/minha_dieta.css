@@ -4,6 +4,7 @@ body{
     background-color: #849CFA;
     
 }
+
 header{
     display: flex;
     flex-direction: row;
@@ -14,27 +15,32 @@ header{
     margin-bottom: 0;
     background-color: white;
 }
+
 .seta{
     position: absolute;
     left: -0.5rem;
     height: 3rem;
 }
+
 .config{
     position: absolute;
     right: .5rem;
     height: 3rem;
 }
+
 .retorno{
     position: absolute;
     top: 1rem;
     left: 0;
 }
+
 h1{
     font-size: 2rem;
     font-weight: bold;
     font-family:'Noto Serif', serif;
 
 }
+
 main{
     display: flex;
     flex-direction: column;
@@ -42,11 +48,13 @@ main{
     overflow-y: auto;
     padding-bottom: 5.6rem;
 }
+
 .food{
     
     height: 3.5rem;
     margin-right: 1rem  ;
 }
+
 .titulo{
     display: flex;
     flex-direction: row;
@@ -58,11 +66,9 @@ main{
     padding: 0.5rem;
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: 'Noto Serif', serif;
-
-
-    
+    font-family: 'Noto Serif', serif;    
 }
+
 .container{
     display: flex;
     flex-direction: row;
@@ -70,12 +76,13 @@ main{
     align-items: center;
     border-bottom: .1rem solid black;
     font-size: 1.05rem;
-    
 }
+
 p{
     margin: .2rem;
     font-family: 'Ubuntu', sans-serif;
 }
+
 .detalhes{
     display: flex;
     flex-direction: column;
@@ -83,15 +90,17 @@ p{
     padding: 1rem;
     font-size: 1.05rem;
 }
+
 h2{
     margin: 1rem;
     font-weight: bold;
-    font-family: monospace;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 div p:first-child{
     font-weight: bold;
 }
+
 footer{
     display: flex;
     flex-direction: row;
@@ -114,18 +123,24 @@ img{
 .home{
     height: 3rem;
 }
+
 .search{
     height: 3rem;
 }
+
 .heart{
     height: 4.5rem;
 }
+
 .agenda{
     height: 3rem;
 }
+
 .plate{
     height: 4rem;
+    margin-right: 0.5rem;
 }
+
 a{
     text-decoration: none;
     color: black;

@@ -5,6 +5,7 @@ body{
     
     
 }
+
 header{
     display: flex;
     flex-direction: row;
@@ -14,26 +15,31 @@ header{
     padding: 1.5rem;
     margin-bottom: 0;
 }
+
 .seta{
     position: absolute;
     left: -0.5rem;
     height: 3rem;
 }
+
 .config{
     position: absolute;
     right: .5rem;
     height: 3rem;
 }
+
 h1{
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Noto Serif', serif;
 }
+
 .retorno{
     position: absolute;
     top: 1rem;
     left: 0;
 }
+
 main{
     display: flex;
     flex-direction: column;
@@ -42,15 +48,18 @@ main{
     height: 33rem;
     
 }
+
 img.icone-dieta{
     border-radius: 5rem;
     height: 10rem;
     
 }
+
 img.icone-agenda{
     border-radius: 1rem;
     height: 8.5rem;
 }
+
 section{
     position: relative;
     top: -2rem;
@@ -60,6 +69,7 @@ section{
     align-items: center;
     padding: 0;
 }
+
 h2{
     margin: .3rem;
     padding: .2rem;
@@ -69,6 +79,7 @@ h2{
     font-family: 'Noto Serif', serif;
     font-size: 1.5rem;
 }
+
 footer{
     display: flex;
     flex-direction: row;
@@ -90,15 +101,19 @@ img{
 .home{
     height: 3rem;
 }
+
 .search{
     height: 3rem;
 }
+
 .heart{
     height: 4.5rem;
 }
+
 .agenda{
     height: 3rem;
 }
+
 .plate{
     height: 4rem;
     margin-right: .5rem;
