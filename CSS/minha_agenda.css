@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color:#849CFA;
+    background-color: #849CFA ;
     
 }
 header{
@@ -75,7 +75,7 @@ main{
 }
 p{
     margin: .2rem;
-    
+    font-family: 'Ubuntu', sans-serif;
 }
 .detalhes{
     display: flex;
@@ -100,7 +100,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: .5rem;
-    border-top: .1rem solid black;
+    border-top: .3rem solid #3F56B0;
     margin-top:0;
     background-color: white;
     position: fixed;
@@ -127,4 +127,8 @@ img{
 }
 .plate{
     height: 4rem;
+}
+a{
+    text-decoration: none;
+    color: black;
 }

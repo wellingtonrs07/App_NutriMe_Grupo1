@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(76, 237, 184);
+    background-color: #FFC252;
 }
 
 header {
@@ -62,7 +62,7 @@ footer {
     padding: .5rem;
     border-top: .1rem solid black;
     margin-top: 0;
-    background-color: rgba(235, 167, 235, 1);
+    background-color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -168,4 +168,8 @@ img {
     background-color: white;
     padding: 0.2rem;
     border-radius: 0.4rem;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
