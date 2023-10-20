@@ -222,7 +222,7 @@ img {
     font-size: 0.6rem;
 }
 
-a {
+a{
     text-decoration: none;
-    text-decoration-line: none;
+    color: black;
 }
