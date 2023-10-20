@@ -112,6 +112,7 @@ img{
 
 .agenda{
     height: 3rem;
+    margin-bottom: 2rem;
 }
 
 .plate{
@@ -123,7 +124,7 @@ a{
     text-decoration: none;
     color: black;
 }
-a{
-    text-decoration: none;
-    color: black;
+
+.dieta {
+    margin-bottom: 2rem;
 }
