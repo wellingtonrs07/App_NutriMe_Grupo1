@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: rgb(76, 237, 184);
+    background-color: #849CFA ;
     
 }
 header{
@@ -71,6 +71,7 @@ main{
 }
 p{
     margin: .2rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 .detalhes{
     display: flex;
@@ -82,7 +83,7 @@ p{
 h2{
     margin: 1rem;
     font-weight: bold;
-    font-family: monospace;
+    font-family: 'Noto Serif', serif;
 }
 
 div p:first-child{
@@ -94,9 +95,9 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: .5rem;
-    border-top: .1rem solid black;
+    border-top: .3rem solid #3F56B0;
     margin-top:0;
-    background-color: rgba(235, 167, 235, 1);
+    background-color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
