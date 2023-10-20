@@ -121,6 +121,7 @@ img {
     border-bottom-left-radius: 0.6rem;
     background-clip: padding-box;
     background-color: rgb(0, 0, 0);
+    font-family: 'Noto Serif', serif;
 }
 
 .data{
