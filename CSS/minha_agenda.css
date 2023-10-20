@@ -127,6 +127,7 @@ img{
 }
 .plate{
     height: 4rem;
+    margin-right: .5rem;
 }
 a{
     text-decoration: none;
