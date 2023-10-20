@@ -170,3 +170,18 @@ a{
     text-decoration: none;
     color: black;
 }
+
+input[type="range"] {
+    accent-color: #FFA600;
+  }
+
+  
+  input[type="radio"] {
+    accent-color: #FFA600;
+  }
+
+.select{
+    background: #FFA600;
+    color: #FFA600;
+}
+  
