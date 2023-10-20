@@ -33,6 +33,8 @@
 
 .fonte_titulo{
     font-family: 'Noto Serif', serif;
+    text-decoration: none;
+    color: black;
 }
 
 .fonte_texto{
