@@ -169,3 +169,7 @@ img {
     padding: 0.2rem;
     border-radius: 0.4rem;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
