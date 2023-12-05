@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #849CFA;
+    opacity: 1;
     
 }
 
@@ -13,7 +14,7 @@ header{
     border-bottom: .1rem solid black;
     padding: 1.5rem;
     margin-bottom: 0;
-    background-color: #849CFA;
+    background-color: white;
 }
 
 .seta{
@@ -144,4 +145,12 @@ img{
 a{
     text-decoration: none;
     color: black;
+}
+button{
+    position: fixed;
+    top: 32rem;
+    right: 0.7rem;
+    border-radius: 2rem;
+    width: 3rem;
+    height: 3rem; 
 }
